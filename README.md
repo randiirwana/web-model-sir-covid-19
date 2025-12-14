@@ -14,12 +14,14 @@ Aplikasi web interaktif untuk simulasi model SIR (Susceptible-Infected-Recovered
 ## 📋 Requirements
 
 ```
-streamlit==1.28.0
-numpy==1.24.3
-pandas==2.0.3
-matplotlib==3.7.2
-scipy==1.11.1
+streamlit>=1.28.0
+numpy>=1.26.0    # Python 3.13 compatible
+pandas>=2.0.0
+matplotlib>=3.7.0
+scipy>=1.11.0
 ```
+
+**Catatan:** Versi numpy >= 1.26.0 diperlukan untuk kompatibilitas dengan Python 3.13 (tidak memerlukan distutils).
 
 ## 🔧 Instalasi
 

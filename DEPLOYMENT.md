@@ -34,7 +34,10 @@ git push -u origin main
 
 3. **Selesai!** Aplikasi akan tersedia di URL: `https://username-repo-name.streamlit.app`
 
-**Catatan:** Pastikan file `covid_data.csv` sudah di-commit ke GitHub (atau gunakan upload file di aplikasi).
+**Catatan:** 
+- Pastikan file `covid_data.csv` sudah di-commit ke GitHub (atau gunakan upload file di aplikasi)
+- Jika ada error dengan Python 3.13, Streamlit Cloud akan otomatis menggunakan versi yang kompatibel
+- Pastikan `requirements.txt` menggunakan versi fleksibel (>=) untuk kompatibilitas lebih baik
 
 ---
 
