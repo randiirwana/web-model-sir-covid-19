@@ -29,6 +29,9 @@ Thumbs.db
 # Data (jika file besar)
 # *.csv
 
+# packages.txt - tidak diperlukan untuk Streamlit Cloud
+packages.txt
+
 # Logs
 *.log
 

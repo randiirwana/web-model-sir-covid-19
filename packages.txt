@@ -1,4 +1,0 @@
-# Alternative untuk platform yang memerlukan packages.txt
-python3-dev
-build-essential
-
